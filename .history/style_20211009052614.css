@@ -211,9 +211,7 @@
         color: white;
     }
     
-    .marked {
-        margin: 25px 0;
-    }
+    .marked {}
     
     .marked>p {
         line-height: 35px;
