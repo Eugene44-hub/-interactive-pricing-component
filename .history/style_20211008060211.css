@@ -1,0 +1,221 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+- Light Grayish Blue (Empty Slider Bar): hsl(224, 65%, 95%)
+
+- Soft Cyan (Full Slider Bar): hsl(174, 77%, 80%)
+- Strong Cyan (Slider Backround): hsl(174, 86%, 45%)
+- Light Grayish Red (Discount Background): hsl(14, 92%, 95%)
+- Light Red (Discount Text): hsl(15, 100%, 70%)
+- Pale Blue (CTA Text): hsl(226, 100%, 87%)
+
+### Neutral
+
+- White (Pricing Component Background): hsl (0, 0%, 100%)
+- Very Pale Blue (Main Background): hsl(230, 100%, 99%)
+- Light Grayish Blue (Toggle Background): hsl(223, 50%, 87%)
+- Grayish Blue (Text): hsl(225, 20%, 60%)
+- Dark Desaturated Blue (Text & CTA Background): hsl(227, 35%, 25%)
+
+## Typography
+
+### Body Copy
+
+- Font size (Introductory Paragraph): 15px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 600, 800
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: grey;
+}
+
+body {
+    background-image: url('images/bg-pattern.svg');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(230, 100%, 99%);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 550px;
+}
+
+header {
+    background-image: url('images/pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 40px 0;
+    flex: 100%;
+    text-align: center;
+    line-height: 40px;
+    height: 150px;
+    display: flex;
+}
+
+.center {
+    margin: auto;
+}
+
+h2 {
+    color: hsl(227, 35%, 25%);
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    box-shadow: 0px 4px 15px rgb(235, 232, 232);
+    border-radius: 10px;
+}
+
+.money {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.dollar {
+    color: hsl(227, 35%, 25%);
+    margin-right: 5px;
+}
+
+#month {
+    font-size: 15px;
+}
+
+.page-review {
+    align-self: center;
+    text-transform: uppercase;
+}
+
+input[type=range] {
+    flex: 100%;
+    margin: 20px 0;
+    height: 25px;
+    width: 25px;
+    background: hsl(174, 77%, 80%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+    /*
+- Light Grayish Blue (Empty Slider Bar): hsl(224, 65%, 95%)
+
+- Soft Cyan (Full Slider Bar): hsl(174, 77%, 80%)
+- Strong Cyan (Slider Backround): hsl(174, 86%, 45%)  */
+}
+
+.billing {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.billing>p,
+#toggle {
+    font-size: 12px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+    text-transform: capitalize;
+}
+
+#toggle {
+    height: 25px;
+    width: 50px;
+    background-color: grey;
+    position: relative;
+    border-radius: 50px;
+}
+
+#circle {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 0%;
+    border-radius: 50%;
+}
+
+#discount {
+    color: hsl(15, 100%, 70%);
+    background-color: hsl(14, 92%, 95%);
+    text-transform: capitalize;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+button {
+    flex-basis: 30%;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(227, 35%, 25%);
+    color: hsl(226, 100%, 87%);
+    height: 45px;
+    align-self: center;
+}
+
+.marked>p {
+    line-height: 35px;
+}
+
+img {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-size: auto;
+        background-position-y: 30%;
+    }
+}
+
+.small-par {
+    font-size: 13px;
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-size: auto;
+        background-position-y: 30%;
+    }
+}
