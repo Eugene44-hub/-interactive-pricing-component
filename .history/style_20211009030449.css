@@ -76,7 +76,7 @@ header {
     margin: 40px 0;
     flex: 100%;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     height: 150px;
     display: flex;
 }
@@ -260,13 +260,10 @@ img {
 .sign {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.credit,
-.trial {
-    font-size: 13px;
-    padding: 1px;
+.small-par {
+    font-size: 14px;
 }
 
 @media screen and (max-width:720px) {
@@ -304,8 +301,5 @@ img {
     .trial,
     .credit {
         flex: 100%;
-    }
-    .sign {
-        line-height: 2;
     }
 }

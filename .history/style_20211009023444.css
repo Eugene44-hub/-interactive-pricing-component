@@ -76,7 +76,7 @@ header {
     margin: 40px 0;
     flex: 100%;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     height: 150px;
     display: flex;
 }
@@ -121,7 +121,7 @@ h2 {
 #month {
     font-size: 15px;
     font-family: none;
-    font-weight: 500;
+    font
 }
 
 .page-review {
@@ -257,55 +257,6 @@ img {
     }
 }
 
-.sign {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.credit,
-.trial {
+.small-par {
     font-size: 13px;
-    padding: 1px;
-}
-
-@media screen and (max-width:720px) {
-    .container {
-        width: 70%;
-    }
-    .card {
-        justify-content: center;
-    }
-    .money {
-        order: 3;
-    }
-    .page-review {
-        order: 1;
-    }
-    input {
-        order: 2;
-    }
-    .billing {
-        order: 3;
-    }
-    .marked {
-        order: 4;
-    }
-    button {
-        order: 5;
-        flex-basis: 70%;
-    }
-    body {
-        justify-content: center;
-    }
-    header {
-        flex-basis: 40%;
-    }
-    .trial,
-    .credit {
-        flex: 100%;
-    }
-    .sign {
-        line-height: 2;
-    }
 }

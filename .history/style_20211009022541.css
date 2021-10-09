@@ -38,7 +38,7 @@ The designs were created to the following widths:
 - Weights: 600, 800
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -76,7 +76,7 @@ header {
     margin: 40px 0;
     flex: 100%;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     height: 150px;
     display: flex;
 }
@@ -120,14 +120,11 @@ h2 {
 
 #month {
     font-size: 15px;
-    font-family: none;
-    font-weight: 500;
 }
 
 .page-review {
     align-self: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 input[type=range] {
@@ -205,7 +202,7 @@ input[type=range]::-moz-range-progress {
 #toggle {
     height: 25px;
     width: 45px;
-    background-color: hsl(223, 50%, 87%);
+    background-color: grey;
     position: relative;
     border-radius: 50px;
 }
@@ -243,7 +240,6 @@ button {
 
 .marked>p {
     line-height: 35px;
-    font-family: none;
 }
 
 img {
@@ -257,55 +253,6 @@ img {
     }
 }
 
-.sign {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.credit,
-.trial {
+.small-par {
     font-size: 13px;
-    padding: 1px;
-}
-
-@media screen and (max-width:720px) {
-    .container {
-        width: 70%;
-    }
-    .card {
-        justify-content: center;
-    }
-    .money {
-        order: 3;
-    }
-    .page-review {
-        order: 1;
-    }
-    input {
-        order: 2;
-    }
-    .billing {
-        order: 3;
-    }
-    .marked {
-        order: 4;
-    }
-    button {
-        order: 5;
-        flex-basis: 70%;
-    }
-    body {
-        justify-content: center;
-    }
-    header {
-        flex-basis: 40%;
-    }
-    .trial,
-    .credit {
-        flex: 100%;
-    }
-    .sign {
-        line-height: 2;
-    }
 }
