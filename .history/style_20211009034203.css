@@ -207,7 +207,6 @@ input[type=range]::-moz-range-progress {
     background-color: hsl(223, 50%, 87%);
     position: relative;
     border-radius: 50px;
-    flex-basis: 11%;
 }
 
 #circle {
