@@ -308,7 +308,8 @@ img {
     .sign {
         line-height: 2;
     }
+    .billing {}
     #toggle {
-        width: 150px;
+        width: 100px;
     }
 }

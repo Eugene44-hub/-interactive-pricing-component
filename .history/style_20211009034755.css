@@ -308,7 +308,5 @@ img {
     .sign {
         line-height: 2;
     }
-    #toggle {
-        width: 150px;
-    }
+    #toggle {}
 }

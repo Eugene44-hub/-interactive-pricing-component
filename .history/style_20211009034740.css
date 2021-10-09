@@ -309,6 +309,7 @@ img {
         line-height: 2;
     }
     #toggle {
-        width: 150px;
+        flex-basis: 100%;
+        background-color: blue;
     }
 }

@@ -308,7 +308,10 @@ img {
     .sign {
         line-height: 2;
     }
+    .billing {
+        justify-content: space-between;
+    }
     #toggle {
-        width: 150px;
+        width: 100px;
     }
 }
