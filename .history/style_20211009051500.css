@@ -318,7 +318,8 @@ button {
 
 @media screen and (max-width:720px) {
     .container {
-        width: 90%;
+        width: 80%;
+        margin: auto;
     }
     .card {
         justify-content: center;
@@ -360,7 +361,7 @@ button {
     }
     #toggle {
         align-self: center;
-        width: 150px;
+        width: 200px;
     }
     #discount {
         align-self: center;

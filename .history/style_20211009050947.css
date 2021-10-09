@@ -180,7 +180,7 @@ input[type=range]::-moz-range-track {
     height: 8px;
 }
 
-input[type=range]::-moz-range-progress {
+3. input[type=range]::-moz-range-progress {
     background-color: hsl(174, 77%, 80%);
     height: 8px;
     border-radius: 10px;
@@ -360,7 +360,7 @@ button {
     }
     #toggle {
         align-self: center;
-        width: 150px;
+        width: 200px;
     }
     #discount {
         align-self: center;
