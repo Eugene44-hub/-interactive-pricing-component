@@ -1,7 +1,6 @@
 const range = document.querySelector('input[type=range]');
 const money = document.querySelector('.dollar');
-const circle = document.querySelector('#circle');
-
+const circle = document.querySelector('#circle')
 range.addEventListener('input', e => {
     if (range.value < 10) {
         console.log(Number(range.value).toPrecision(3))
@@ -10,7 +9,6 @@ range.addEventListener('input', e => {
         console.log(Number(range.value).toPrecision(4))
         money.textContent = `$${Number(range.value).toPrecision(4)}`
     }
-
 })
 
 circle.addEventListener('click', e => {
@@ -22,15 +20,13 @@ circle.addEventListener('click', e => {
 })
 
 function myFunction(x) {
-    const discount = document.querySelector('#discount')
     if (x.matches) { // If media query matches
-        discount.textContent = '-25%'
+        document.body.style.backgroundColor = "yellow";
     } else {
-        discount.textContent = '25% discount'
 
     }
 }
 
-var x = window.matchMedia("(max-width: 720px)")
+var x = window.matchMedia("(max-width: 700px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes

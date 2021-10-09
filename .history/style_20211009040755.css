@@ -13,7 +13,7 @@ The designs were created to the following widths:
 - Light Grayish Blue (Empty Slider Bar): hsl(224, 65%, 95%)
 
 - Soft Cyan (Full Slider Bar): hsl(174, 77%, 80%)
-- Strong Cyan (Slider Backround): CC
+- Strong Cyan (Slider Backround): hsl(174, 86%, 45%)
 - Light Grayish Red (Discount Background): hsl(14, 92%, 95%)
 - Light Red (Discount Text): hsl(15, 100%, 70%)
 - Pale Blue (CTA Text): hsl(226, 100%, 87%)
@@ -103,7 +103,6 @@ h2 {
     top: 100%;
     box-shadow: 0px 4px 15px rgb(235, 232, 232);
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .money {
@@ -209,11 +208,6 @@ input[type=range]::-moz-range-progress {
     position: relative;
     border-radius: 50px;
     flex-basis: 11%;
-    transition: all .5s;
-}
-
-#toggle:hover {
-    background-color: hsl(174, 77%, 80%);
 }
 
 #circle {
@@ -247,10 +241,6 @@ button {
     align-self: center;
 }
 
-button:hover {
-    color: white;
-}
-
 .marked>p {
     line-height: 35px;
     font-family: none;
@@ -258,43 +248,6 @@ button:hover {
 
 img {
     margin-right: 10px;
-}
-
-hr {
-    order: 5;
-    flex: 100%;
-    border: 1px solid rgb(243, 239, 239);
-    margin: 25px 0;
-    align-self: center;
-}
-
-.billing {
-    order: 4
-}
-
-.page-review {
-    order: 1;
-}
-
-.money {
-    order: 2;
-}
-
-input {
-    order: 3;
-}
-
-.marked {
-    order: 5;
-}
-
-hr {
-    order: 4;
-}
-
-button {
-    order: 6;
-    cursor: pointer;
 }
 
 @media screen and (max-width:1440px) {
@@ -318,7 +271,7 @@ button {
 
 @media screen and (max-width:720px) {
     .container {
-        width: 90%;
+        width: 70%;
     }
     .card {
         justify-content: center;
@@ -333,13 +286,13 @@ button {
         order: 2;
     }
     .billing {
-        order: 4;
+        order: 3;
     }
     .marked {
-        order: 6;
+        order: 4;
     }
     button {
-        order: 7;
+        order: 5;
         flex-basis: 70%;
     }
     body {
@@ -356,17 +309,10 @@ button {
         line-height: 2;
     }
     .billing {
-        justify-content: space-between;
+        justify-content: ;
     }
     #toggle {
+        flex-basis: 50%;
         align-self: center;
-        width: 200px;
-    }
-    #discount {
-        align-self: center;
-    }
-    #circle {
-        width: 15px;
-        height: 15px;
     }
 }

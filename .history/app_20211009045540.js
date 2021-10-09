@@ -1,7 +1,7 @@
 const range = document.querySelector('input[type=range]');
 const money = document.querySelector('.dollar');
 const circle = document.querySelector('#circle');
-
+const thumb = document.querySelector('input[type=range]::-webkit-slider-thumb')
 range.addEventListener('input', e => {
     if (range.value < 10) {
         console.log(Number(range.value).toPrecision(3))
