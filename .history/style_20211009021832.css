@@ -46,7 +46,7 @@ The designs were created to the following widths:
 }
 
 p {
-    color: rgb(168, 167, 167);
+    color: grey;
     font-family: 'Manrope';
 }
 
@@ -116,6 +116,7 @@ h2 {
     color: hsl(227, 35%, 25%);
     margin-right: 5px;
     font-family: Manrope;
+    font-weight: 600;
 }
 
 #month {

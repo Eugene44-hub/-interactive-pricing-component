@@ -38,7 +38,7 @@ The designs were created to the following widths:
 - Weights: 600, 800
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -46,11 +46,12 @@ The designs were created to the following widths:
 }
 
 p {
-    color: rgb(168, 167, 167);
-    font-family: 'Manrope';
+    color: grey;
 }
 
 body {
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+    font-family: 'Manrope';
     background-image: url('images/bg-pattern.svg');
     background-repeat: no-repeat;
     background-position-y: 50%;
@@ -88,7 +89,6 @@ header {
 h2 {
     color: hsl(227, 35%, 25%);
     margin: auto;
-    font-weight: bolder;
 }
 
 .card {
@@ -115,7 +115,6 @@ h2 {
 .dollar {
     color: hsl(227, 35%, 25%);
     margin-right: 5px;
-    font-family: Manrope;
 }
 
 #month {
